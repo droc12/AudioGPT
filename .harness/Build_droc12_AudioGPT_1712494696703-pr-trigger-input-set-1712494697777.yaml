@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_droc12_AudioGPT_1712494696703-pr-trigger-input-set
+  identifier: Build_droc12_AudioGPT_1712494696703prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_droc12_AudioGPT_1712494696703
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
