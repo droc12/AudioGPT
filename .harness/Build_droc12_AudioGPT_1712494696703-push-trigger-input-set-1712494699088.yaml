@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_droc12_AudioGPT_1712494696703-push-trigger-input-set
+  identifier: Build_droc12_AudioGPT_1712494696703pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_droc12_AudioGPT_1712494696703
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
